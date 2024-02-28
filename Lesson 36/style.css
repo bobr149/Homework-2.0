@@ -1,0 +1,32 @@
+.case {
+    height: 750px;
+    background-color: rgb(233, 232, 243);
+    overflow: auto;
+    border: 1px solid black;
+    border-color: black;
+    border-top-left-radius: 37px;  
+    border-bottom-left-radius: 37px;  
+}
+
+.block {
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 50px 30px;
+    margin: 13px 8px;
+    height: 280px;
+    width: 360px;
+    background-color: rgb(190, 168, 134);
+    border-radius: 37px;
+    box-shadow: inset 0px 0px 13px black;
+}
+
+.block h2 {
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 0px;
+}
+
+.block p {
+    font-size: 25px;
+}
+
